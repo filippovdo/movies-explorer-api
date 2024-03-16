@@ -15,5 +15,5 @@ module.exports.MOVIE_ADD_ERROR = 'Переданы некорректные да
 module.exports.MOVIE_FORBIDDEN_ERROR = 'Недостаточно прав';
 module.exports.MOVIE_NOT_FOUND_ERROR = 'Фильм с указанным _id не найден.';
 
-module.exports.NOT_FOUND_ERROR = 'Запрашиваемая страница не найдена';
+module.exports.NOT_FOUND_ERROR = 'страница не найдена';
 module.exports.SERVER_ERROR = 'На сервере произошла ошибка';
