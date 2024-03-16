@@ -3,7 +3,7 @@ const express = require('express');
 const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
 
-const { PORT = 4000, DB_URL = 'mongodb://127.0.0.1:27017/bitfilmsdb' } = process.env;
+const { PORT = 3000, DB_URL = 'mongodb://127.0.0.1:27017/bitfilmsdb' } = process.env;
 const mongoose = require('mongoose');
 const { errors } = require('celebrate');
 
