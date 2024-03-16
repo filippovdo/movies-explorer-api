@@ -1,7 +1,7 @@
 const allowedCors = [
   'http://localhost:3000',
   'https://filippovdo.diplom.nomoredomainswork.ru',
-  'https://api.filippovdo.diplom.nomoredomainsmonster.ru/users/me',
+  'https://api.filippovdo.diplom.nomoredomainsmonster.ru',
 ];
 
 module.exports = (req, res, next) => {
